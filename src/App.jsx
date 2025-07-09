@@ -34,15 +34,14 @@ function App() {
   return (
     <div className=" bg-cyan-100 p-6 flex min-h-screen flex-col items-center">
       <h1 className=" font-[500] mb-6 text-[25px] ">Lexi  Assistant</h1>
-      <QueryInput qus={qus} loading={loading} handleSubmit={handleSubmit} setQus={setQus}
-      />
       {response && (
-        <AnswerCard
-          citation={response.citations[0]}
-          answer={response.answer}
+        <AnswerCard citation={response.citations[0]} answer={response.answer}
         
         />
       )}
+      <QueryInput qus={qus} loading={loading} handleSubmit={handleSubmit} setQus={setQus}
+      />
+      
     </div>
   );
 }
