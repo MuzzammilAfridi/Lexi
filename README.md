@@ -1,12 +1,28 @@
-# React + Vite
+# Lexi
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a frontend assignment submission for **Lexi**, which simulates a legal assistant interface that returns AI-generated legal answers with traceable citations.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Input field to ask legal questions
+- Submit button with loading state
+- Simulated API response
+- Display of answer in a clean card layout
+- Citation shown below answer
+- Clickable citation opens the judgment PDF in a new tab
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- React.js
+- Tailwind CSS
+
+---
+
+## How to Run Locally
+
+```bash
+git clone https://github.com/MuzzammilAfridi/Lexisg-frontend-intern-test.git
+cd Lexi
+npm install
+npm start
